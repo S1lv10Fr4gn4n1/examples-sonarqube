@@ -64,6 +64,5 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
-.idea/codeStyles/Project.xml
-.idea/encodings.xml
+.idea/
 .scannerwork/
