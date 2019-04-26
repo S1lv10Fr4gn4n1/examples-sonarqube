@@ -57,6 +57,11 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
         }
 
         loaderManager.initLoader(0, null, this)
+
+
+        if (true) {
+            mayRequestContacts()
+        }
     }
 
     private fun mayRequestContacts(): Boolean {
