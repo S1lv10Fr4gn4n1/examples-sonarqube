@@ -51,6 +51,10 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
         email_sign_in_button.setOnClickListener { attemptLogin() }
     }
 
+    private fun add_anything_(String1: Int) {
+        //TODO(do nothing)
+    }
+
     private fun populateAutoComplete() {
         if (!mayRequestContacts()) {
             return
