@@ -51,6 +51,7 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
         email_sign_in_button.setOnClickListener { attemptLogin() }
     }
 
+    // TODO do IT
     private fun add_anything_(String1: Int) {
         //TODO(do nothing)
     }
